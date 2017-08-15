@@ -6,4 +6,10 @@
     <string name="jsonToObj">json转对象</string>
     <string name="nestedObjects">嵌套对象转Json</string>
     <string name="jsonToNestedObjects">Json转嵌套对象</string>
+
+    <string name="nestedListToJson">对象嵌套list转Json</string>
+    <string name="jsonToNestedList">json转对象嵌套list</string>
+    <string name="listToJson">list转Json</string>
+    <string name="jsonToArray">json转数组</string>
+    <string name="jsonToList">json转对list</string>
 </resources>

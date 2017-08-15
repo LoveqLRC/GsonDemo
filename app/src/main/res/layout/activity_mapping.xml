@@ -44,5 +44,43 @@
             android:text="@string/jsonToNestedObjects"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/nestedListToJson"
+            android:onClick="startNestedListToJsonActivity"
+            android:text="@string/nestedListToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/jsonToNestedList"
+            android:onClick="startJsonToNestedListActivity"
+            android:text="@string/jsonToNestedList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/listToJson"
+            android:onClick="startListToJsonActivity"
+            android:text="@string/listToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/jsonToArray"
+            android:onClick="startJsonToArrayActivity"
+            android:text="@string/jsonToArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/jsonToList"
+            android:onClick="startJsonToListActivity"
+            android:text="@string/jsonToList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </ScrollView>

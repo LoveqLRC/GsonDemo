@@ -23,6 +23,11 @@
         <activity android:name=".ui.mapping.JsonToObjActivity"/>
         <activity android:name=".ui.mapping.NestedObjectsActivity"/>
         <activity android:name=".ui.mapping.JsonToNestedObjectsActivity"/>
+        <activity android:name=".ui.mapping.NestedListToJsonActivity"/>
+        <activity android:name=".ui.mapping.JsonToNestedListActivity"/>
+        <activity android:name=".ui.mapping.ListToJsonActivity"/>
+        <activity android:name=".ui.mapping.JsonToArrayActivity"/>
+        <activity android:name=".ui.mapping.JsonToListActivity"/>
     </application>
 
 </manifest>
