@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GsonDemo</string>
+    <string name="objToJson">对象转Json</string>
+    <string name="doSomeWork">执行</string>
+    <string name="mapping">mapping</string>
+    <string name="jsonToObj">json转对象</string>
+    <string name="nestedObjects">嵌套对象转Json</string>
+    <string name="jsonToNestedObjects">Json转嵌套对象</string>
+</resources>
