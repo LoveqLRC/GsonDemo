@@ -82,5 +82,43 @@
             android:text="@string/jsonToList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/mapToJson"
+            android:onClick="startMapToJsonActivity"
+            android:text="@string/mapToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/jsonToMap"
+            android:onClick="startJsonToMapActivity"
+            android:text="@string/jsonToMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/setToJson"
+            android:onClick="startSetToJsonActivity"
+            android:text="@string/setToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/jsonToSet"
+            android:onClick="startJsonToSetActivity"
+            android:text="@string/jsonToSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/nullValues"
+            android:onClick="startNullValuesActivity"
+            android:text="@string/nullValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </ScrollView>

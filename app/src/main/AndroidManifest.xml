@@ -28,6 +28,11 @@
         <activity android:name=".ui.mapping.ListToJsonActivity"/>
         <activity android:name=".ui.mapping.JsonToArrayActivity"/>
         <activity android:name=".ui.mapping.JsonToListActivity"/>
+        <activity android:name=".ui.mapping.MapToJsonActivity"/>
+        <activity android:name=".ui.mapping.JsonToMapActivity"/>
+        <activity android:name=".ui.mapping.SetToJsonActivity"/>
+        <activity android:name=".ui.mapping.JsonToSetActivity"/>
+        <activity android:name=".ui.mapping.NullValuesActivity"/>
     </application>
 
 </manifest>

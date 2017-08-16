@@ -12,4 +12,9 @@
     <string name="listToJson">list转Json</string>
     <string name="jsonToArray">json转数组</string>
     <string name="jsonToList">json转对list</string>
+    <string name="mapToJson">map转json</string>
+    <string name="jsonToMap">json转map</string>
+    <string name="setToJson">set转Json</string>
+    <string name="jsonToSet">json转set</string>
+    <string name="nullValues">NullValues</string>
 </resources>

@@ -8,13 +8,18 @@ import android.view.View;
 import loveq.rc.gsondemo.R;
 import loveq.rc.gsondemo.ui.mapping.JsonToArrayActivity;
 import loveq.rc.gsondemo.ui.mapping.JsonToListActivity;
+import loveq.rc.gsondemo.ui.mapping.JsonToMapActivity;
 import loveq.rc.gsondemo.ui.mapping.JsonToNestedListActivity;
 import loveq.rc.gsondemo.ui.mapping.JsonToNestedObjectsActivity;
 import loveq.rc.gsondemo.ui.mapping.JsonToObjActivity;
+import loveq.rc.gsondemo.ui.mapping.JsonToSetActivity;
 import loveq.rc.gsondemo.ui.mapping.ListToJsonActivity;
+import loveq.rc.gsondemo.ui.mapping.MapToJsonActivity;
 import loveq.rc.gsondemo.ui.mapping.NestedListToJsonActivity;
 import loveq.rc.gsondemo.ui.mapping.NestedObjectsActivity;
+import loveq.rc.gsondemo.ui.mapping.NullValuesActivity;
 import loveq.rc.gsondemo.ui.mapping.ObjToJsonActivity;
+import loveq.rc.gsondemo.ui.mapping.SetToJsonActivity;
 
 public class MappingActivity extends AppCompatActivity {
 
@@ -59,5 +64,26 @@ public class MappingActivity extends AppCompatActivity {
 
     public void startJsonToListActivity(View v) {
         startActivity(new Intent(MappingActivity.this, JsonToListActivity.class));
+    }
+
+
+    public void startMapToJsonActivity(View v) {
+        startActivity(new Intent(MappingActivity.this, MapToJsonActivity.class));
+    }
+
+    public void startJsonToMapActivity(View v) {
+        startActivity(new Intent(MappingActivity.this, JsonToMapActivity.class));
+    }
+
+    public void startSetToJsonActivity(View v) {
+        startActivity(new Intent(MappingActivity.this, SetToJsonActivity.class));
+    }
+
+    public void startJsonToSetActivity(View v) {
+        startActivity(new Intent(MappingActivity.this, JsonToSetActivity.class));
+    }
+
+    public void startNullValuesActivity(View v) {
+        startActivity(new Intent(MappingActivity.this, NullValuesActivity.class));
     }
 }
