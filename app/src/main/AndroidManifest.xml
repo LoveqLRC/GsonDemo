@@ -33,6 +33,11 @@
         <activity android:name=".ui.mapping.SetToJsonActivity"/>
         <activity android:name=".ui.mapping.JsonToSetActivity"/>
         <activity android:name=".ui.mapping.NullValuesActivity"/>
+        <activity android:name=".ui.ConfigurationActivity"/>
+        <activity android:name=".ui.configuration.SerializedNameActivity"/>
+        <activity android:name=".ui.configuration.SerializedNameExtendActivity"/>
+        <activity android:name=".ui.configuration.ExposeActivity"/>
+
     </application>
 
 </manifest>

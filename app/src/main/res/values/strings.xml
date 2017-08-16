@@ -17,4 +17,8 @@
     <string name="setToJson">set转Json</string>
     <string name="jsonToSet">json转set</string>
     <string name="nullValues">NullValues</string>
+    <string name="configuration">Configuration</string>
+    <string name="serializedName">\@SerializedName基础</string>
+    <string name="serializedNameExtend">\@SerializedName扩展</string>
+    <string name="expose">\@Expose</string>
 </resources>

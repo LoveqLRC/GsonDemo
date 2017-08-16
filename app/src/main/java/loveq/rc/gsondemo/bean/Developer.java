@@ -1,5 +1,7 @@
 package loveq.rc.gsondemo.bean;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by rc on 2017/8/16.
  * Description:
@@ -7,7 +9,10 @@ package loveq.rc.gsondemo.bean;
 
 public class Developer {
     boolean isDeveloper;
+    @SerializedName("username")
     String name;
+
+    @SerializedName(value = "userage", alternate = "myage")
     int age;
 
     public Developer(boolean isDeveloper, String name, int age) {
